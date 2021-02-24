@@ -1,7 +1,23 @@
-p {
+p li{
     font-size:larger;
 }
 
-h2 {
+h1, h2 {
     margin-top: 30px;
+    
+}
+
+h1 {
+    border-bottom: solid 2px;
+    border-color: gray;
+}
+
+h2 {
+    border-bottom: solid 1px;
+    border-color: gray;
+}
+
+.img-fluid {
+    margin-top: 30px;
+    margin-bottom: 30px;;
 }
