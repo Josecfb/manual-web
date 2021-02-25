@@ -4,6 +4,13 @@ p, li{
 
 #nav li{
     font-size:medium;
+
+    padding: auto;
+}
+
+#nav ul{
+    padding-left: 0
+
 }
 
 h1, h2 {

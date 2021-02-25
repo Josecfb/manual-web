@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Tutorial - Páginas</title>
+    <title>Tutorial - Configuración</title>
 </head>
 <body>
 
@@ -35,8 +35,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="noticias.html">Noticias</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="paginas.html">Páginas <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="paginas.html">Páginas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="columnas.html">Columnas</a>
@@ -59,8 +59,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Usuarios.html">Usuarios</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="configuracion.html">Configuración</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="configuracion.html">Configuración <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -72,62 +72,29 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Páginas</h1>
-            <p>Páginas son cada una de las opciones que aparecen en el 
-            menú principal.</p>
-            <p>En esta sección al igual que en noticias, podemos listar o añadir nueva.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <h2>Listar páginas</h2>
-            <img src="img/listado_paginas.png" class="img-fluid" alt="Listado de páginas">
-            <h2>Añadir Nueva Página</h2>
-            <p>Pulsamos sobre el botón añadir nueva y rellenamos los campos 
-            Título, Título corto, el slug irá en la URL de la página, 
-            Fuente/Autor y el contenido donde podremos editar el texto 
-            de nuestra página así como insertar imágenes</p>
-            <img src="img/nueva_pagina.png" class="img-fluid" alt="Nueva página">
-            <p>Para insertar una imagen pulsamos en el botón indicado arriba, y en 
-            la pestaña Cargar seleccionamos un archivo de nuestra computadora y a 
-            continuación pulsamos en el botón enviar al servidor. A continuación, 
-            dentro de la pestaña de “Información de la imagen”, establecemos las 
-            propiedades de Anchura, Altura, Espacio vertical y horizontal y alineación.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col col-12 col-lg-6">
-            <img src="img/cargar_imagen.png" class="img-fluid" alt="Cargar imagen">
-        </div>
-        <div class="col col-12 col-lg-6 align-self-center">
-            <img src="img/informacion_imagen.png" class="img-fluid" alt="Información imagen">
-        </div>
-    </div>
-    <div class="row">
-        <p>Después de insertar la imagen podemos escribir el texto de nuestra página:</p>
-        <img src="img/contenido_pagina.png" class="img-fluid" alt="Contenido página">
-        <p>En el panel de la izquierda tenemos las opciones de publicación:</p>
-    </div>
-    <div class="row">
-        <div class="col col-12 col-lg-4">
-            <img src="img/opciones_publicacion.png" class="img-fluid" alt="Opciones de publicacion">
-        </div>
-        <div class="col col-12 col-lg-8">
-            <p>En esta parte tenemos el título de la página, la opción SUPERIOR 
-            (esta opción puede estar vacía. Esto significaría que sería una 
-            opción de menú. Si tuviera superior, la página sería un submenú de la página elegida.</p>
-            <p>El orden es la posición en el menú. Las otras opciones son iguales a las opciones 
-            de páginas, pero además se puede añadir un álbum.</p>
-            <p>La columna que queramos que aparezca en el lateral, creada desde el apartado <a href="columnas.html">Columnas</a>.</p>
-            <p>Si queremos que aparezca en el menú principal.</p>
-            <p>Si la página está activa.</p>
-            <p>A que categorías pertenece la página dentro de las categorías creadas 
-            en el apartado de <a href="categotias.html">Categorías</a>.</p>
-            <p>Y si queremos que contenga un álbum de fotografías creado en el 
-            apartado de <a href="albumes.html">Álbumes</>.</p>
+            <h1>Configuración</h1>
+            <p>En la última opción del menú de la izquierda, “Configuración”, 
+            pinchamos y nos aparece la opción “Información básica”.</p>
+            <img src="img/configuracion.png" class="img-fluid" alt="Configuración">
+            <p><strong>Título: </strong>es el título que aparece en la ventana del 
+            navegador y en el encabezado de la página.</p>
+            <p><strong>Subtítulo: </strong>aparece a continuación del título en 
+            la ventana del navegador y en el encabezado de la página.</p>
+            <p><strong>Nombre corto: </strong>Para la URL.</p>
+            <p><strong>Descripción: </strong>descripción base del portal.</p>
+            <p><strong>Etiquetas: </strong>Para los buscadores, por ejemplo, Google.</p>
+            <p><strong>Footer: </strong>Si no se rellena aparecerán los logos por defecto.</p>
+            <img src="img/footer1.png" class="img-fluid" alt="Footer">
+            <p>En caso contrario aparecerá el contenido que le hallamos incluido:</p>
+            <img src="img/footer2.png" class="img-fluid" alt="Footer">
+            <p><strong>Muestra título: </strong>se utiliza para ocultar el texto del 
+            título en el encabezado de la página para el caso de que se quiera 
+            insertar una imagen que ya contenga el título, o para mostrar el 
+            texto de título.</p>
         </div>
     </div>
 </div>
+
 <div class="container" id="footer">
             <hr>
             <div class="row">
