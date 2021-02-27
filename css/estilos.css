@@ -2,25 +2,31 @@ p, li{
     font-size:x-large;
 }
 
-#nav li{
-    font-size:medium;
+.navbar-brand{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 10px;
 }
 
+#nav li{
+    font-size:medium;
+    
+}
 
 h1, h2 {
     color:rgb(0, 100, 160);
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
+    border-color: rgb(0, 100, 160);
 }
 
 h1 {
     border-bottom: solid 2px;
-    border-color: rgb(0, 100, 160);
 }
 
 h2 {
     border-bottom: solid 1px;
-    border-color: rgb(0, 100, 160);
 }
 
 .img-fluid {
@@ -33,9 +39,11 @@ h2 {
     border-color: white;
 }
 
-#footer {
+footer {
     background-color: #242424;
     color: white;
-    font-size: small;
+    font-size: x-small;
 }
+
+
 
